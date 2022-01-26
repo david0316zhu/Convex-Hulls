@@ -1,14 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[110]:
-
-
 import matplotlib.pyplot as plt
 import time
 import random
 import copy
-
 
 # function that checks if three points a,b,c are clockwise positioned 
 def is_clockwise(a, b, c):
@@ -306,22 +302,3 @@ if NUMBER_OF_POINTS < 1000:
     ax.plot([x[0] for x in hull_divide_conquer], [x[1] for x in hull_divide_conquer], "ro--")
     ax.title.set_text('Divide/Conquer')
     plt.show(block=False)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
